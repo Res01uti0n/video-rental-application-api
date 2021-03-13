@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "aridly_jwtPrivateKey",
+  "db": "mongodb://localhost/aridly"
+}

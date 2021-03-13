@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "indent": "off",
+    "max-len": [ "error", {
+      "ignoreComments": true,
+      "code": 120
+    }],
+    "import/prefer-default-export": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "object-curly-newline": ["error", { "consistent": true }]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
